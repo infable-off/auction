@@ -1,0 +1,28 @@
+.block-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /*grid-template-columns: 2fr 1fr;*/
+    grid-auto-rows: minmax(100px, auto);
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 5%;
+    gap: 5%;
+}
+
+.block-img{
+    max-width: 70%;
+}
+.block-left {
+    /*border: 1px solid white;*/
+}
+.block-right{
+    padding: 4%;
+}
+.block-input{
+    padding: 3%;
+}
+
+.wrapper{
+    min-width: 250px;
+}

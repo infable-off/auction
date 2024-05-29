@@ -1,0 +1,29 @@
+.home-stand{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Расположить элементы по центру по горизонтали */
+    justify-content: center; /* Расположить элементы по центру по вертикали */
+    padding: 20px; /* Добавить отступы вокруг содержимого */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+
+
+.home-stand button {
+    margin-top: 10px; /* Отступ сверху для кнопки */
+    padding: 12px 48px; /* Увеличить размер кнопки */
+    font-size: 16px; /* Увеличить размер шрифта кнопки */
+    background-color: orange;
+}
+.home-stand button:hover {
+    background-color: darkgoldenrod;
+}
+.users_space{
+    padding: 5%;
+    width: 100%;
+}

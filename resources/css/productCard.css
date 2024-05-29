@@ -1,0 +1,77 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+
+    /*grid-auto-rows: minmax(300px, auto);*/
+    justify-content: space-between;
+    grid-gap: 2%;
+}
+.my-lots{
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+.product-card {
+    height: 400px;
+    /*width: 200px;*/
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.admin-stand{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Расположить элементы по центру по горизонтали */
+    justify-content: center; /* Расположить элементы по центру по вертикали */
+    padding: 20px; /* Добавить отступы вокруг содержимого */
+    text-align: center;
+}
+.admin-stand button {
+    margin-top: 10px; /* Отступ сверху для кнопки */
+    padding: 4px 20px; /* Увеличить размер кнопки */
+    font-size: 16px; /* Увеличить размер шрифта кнопки */
+    background-color: orange;
+}
+.admin-stand button:hover {
+    background-color: darkgoldenrod;
+}
+/*.product-list-lots{*/
+/*    height: 400px;*/
+/*}*/
+.margOb{
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+}
+.product-admin-card {
+    height: 480px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-space {
+    width: 100%;
+}
+.product-card h2 {
+    margin-top: 0;
+}
+
+.product-card p {
+    margin-bottom: 8px;
+}
+
+.product-card img {
+    min-width: 100%;
+    max-width: 100%;
+    /*height: auto;*/
+
+    max-height: 130px;
+    border-radius: 4px;
+}
